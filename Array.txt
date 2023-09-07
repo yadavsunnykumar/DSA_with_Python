@@ -1,0 +1,36 @@
+Properties of the array
+--> Each array element is of the same data type and size.For Example:For an array of integerrs with the int data type,each element of the array will occupy 4 bytes.
+--> Elements of the array are stored in contigous memory locations.
+
+Operations on Array in python
+-->Below are some operations that can be performed in an array.
+             -->append()
+             -->insert()
+             -->pop()
+             -->remove()
+             -->index()
+             -->reverse()
+
+--> append():-This function is used to add the value in mentioned in its arguments at the end of the array. In this Example,we are adding an element at the end of the array.
+
+--> insert():- This function is used to add the value(x) at the ith position specified in its argument. In this example, we are inserting an element at a specified index in an array.
+
+Time Complexity: 
+-->The initialization of the array takes O(n) time, where n is the number of elements in the array. 
+-->The for loops used for printing the original array and the appended/inserted array takes O(n) time each, where n is the number of elements in the array. 
+-->The append() method takes O(1) time as it adds the new element at the end of the array in constant time. 
+-->The insert() method takes O(n) time in the worst case as it may have to shift all the elements to the right of the given position by one index, where n is the number of elements in the array.
+-->Therefore, the overall time complexity of the code is O(n) + O(n) + O(1) + O(n) = O(n).
+
+
+Auxiliary Space:
+-->The array data structure used for initialization, append() and insert() methods requires a fixed amount of space for each element in the array.
+-->The space used by the print statements is negligible compared to the space used by the array.
+-->Therefore, the auxiliary space complexity of the code is O(n), where n is the number of elements in the array.
+
+-->pop():- This function removesthe element at the position mentioned in its argument and returns it.
+In this example,we are removing mentioned at a particular index.
+
+--> remove():- This function is used to remove the first occurence of the value mentioned in its arguments.
+In this example,we are removing the first occurence of 1 from a given array.
+--> reverse(): -This function reverses all the elements present inside the array without changing their positions.
